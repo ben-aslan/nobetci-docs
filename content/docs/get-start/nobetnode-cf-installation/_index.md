@@ -11,7 +11,7 @@ When an ip cached on Nöbetci, Nöbetnode CF bans the ip using Cloudflare Firewa
 Install Nöbetnode CF with this command:
 
 ```bash
-sudo bash -c "$(curl -sL https://github.com/muttehitler/nobetnode-cf/raw/main/script.sh)" @ install
+sudo bash -c "$(curl -sL https://github.com/muttehit/nobetnode-cf/raw/main/script.sh)" @ install
 ```
 
 During the installation, you must enter your Cloudflare API Token.

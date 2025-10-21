@@ -11,7 +11,7 @@ When an ip cached on Nöbetci, Nöbetnodes bans the ip using iptables on linux s
 Install Nöbetnode with this command:
 
 ```bash
-sudo bash -c "$(curl -sL https://github.com/muttehitler/nobetnode/raw/main/script.sh)" @ install
+sudo bash -c "$(curl -sL https://github.com/muttehit/nobetnode/raw/main/script.sh)" @ install
 ```
 
 - You'd notice the logs, which you could stop watching by pressing `Ctrl+C`; The process will continue running normally.

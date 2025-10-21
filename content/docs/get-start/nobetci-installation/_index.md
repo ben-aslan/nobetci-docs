@@ -12,13 +12,13 @@ TL;DR for installation:
 Install Nöbetci app first (Enter panel confs while installing)
 
 ```bash
-sudo bash -c "$(curl -sL https://github.com/muttehitler/nobetci/raw/main/script.sh)" @ install
+sudo bash -c "$(curl -sL https://github.com/muttehit/nobetci/raw/main/script.sh)" @ install
 ```
 
 Then install Nöbetnode local node
 
 ```bash
-sudo bash -c "$(curl -sL https://github.com/muttehitler/nobetnode/raw/main/script.sh)" @ install
+sudo bash -c "$(curl -sL https://github.com/muttehit/nobetnode/raw/main/script.sh)" @ install
 ```
 
 Then write client certificate on /var/lib/nobetnode/client.pem
@@ -51,14 +51,14 @@ Nöbetci currently supports the following databases. SQLite is preferred for sma
 {{< tabs items="mariadb,mysql,sqlite" >}}
 
 {{< tab >}}```bash
-sudo bash -c "$(curl -sL https://github.com/muttehitler/nobetci/raw/main/script.sh)" @ install --database mariadb
+sudo bash -c "$(curl -sL https://github.com/muttehit/nobetci/raw/main/script.sh)" @ install --database mariadb
 
 ````{{< /tab >}}
   {{< tab >}}```bash
-sudo bash -c "$(curl -sL https://github.com/muttehitler/nobetci/raw/main/script.sh)" @ install --database mysql
+sudo bash -c "$(curl -sL https://github.com/muttehit/nobetci/raw/main/script.sh)" @ install --database mysql
 ```{{< /tab >}}
   {{< tab >}}```bash
-sudo bash -c "$(curl -sL https://github.com/muttehitler/nobetci/raw/main/script.sh)" @ install
+sudo bash -c "$(curl -sL https://github.com/muttehit/nobetci/raw/main/script.sh)" @ install
 ```{{< /tab >}}
 
 {{< /tabs >}}
@@ -78,7 +78,7 @@ Once the installation is complete:
 Then install Nöbetnode for ban ip's on current node
 
 ```bash
-sudo bash -c "$(curl -sL https://github.com/muttehitler/nobetnode/raw/main/script.sh)" @ install
+sudo bash -c "$(curl -sL https://github.com/muttehit/nobetnode/raw/main/script.sh)" @ install
 ```
 
 Then write client certificate on /var/lib/nobetnode/client.pem
