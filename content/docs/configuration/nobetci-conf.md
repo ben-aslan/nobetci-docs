@@ -35,6 +35,7 @@ weight: 1
 | PANEL_ADDRESS      | Panel Address (Must be without https:// or http:// : pnl.example.com)  |
 | PANEL_USERNAME     | Panel username                                                         |
 | PANEL_PASSWORD     | Panel password                                                         |
+| PANEL_CUSTOM_NODES | Custom panel nodes to check                                            |
 
 ## API
 
